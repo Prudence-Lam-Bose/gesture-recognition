@@ -1,0 +1,24 @@
+{
+  "arch": "crnn",
+  "form": "smalls",
+  "lr": 0.007,
+  "epochs": 200,
+  "start_epoch": 1,
+  "schedule": [
+    600,
+    900
+  ],
+  "cos": true,
+  "batch_size": 128,
+  "wd": 0.0005,
+  "sequence_length": 15,
+  "debug": false,
+  "classical": false,
+  "classifier": "knn",
+  "num_neighbors": null,
+  "hidden_dim": 64,
+  "dropout": 0.1,
+  "num_layers": 1,
+  "resume": "",
+  "results_dir": "./results"
+}

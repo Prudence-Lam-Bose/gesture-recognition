@@ -1,0 +1,19 @@
+{
+  "arch": "lstm",
+  "form": "smalls",
+  "lr": 0.0007,
+  "epochs": 500,
+  "start_epoch": 1,
+  "schedule": [
+    600,
+    900
+  ],
+  "cos": true,
+  "batch_size": 128,
+  "wd": 0.0005,
+  "sequence_length": 15,
+  "hidden_dim": 256,
+  "dropout": 0.2,
+  "resume": "",
+  "results_dir": "./results"
+}
